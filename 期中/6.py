@@ -1,0 +1,6 @@
+n=input("輸入值為:").split(',')
+min1=sorted(n)
+max1=sorted(min1,reverse=True)
+min2=int(''.join(min1))
+max2=int(''.join(max1))
+print("最大值數列與最小值數列差值為:",(max2-min2))
